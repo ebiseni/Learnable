@@ -22,8 +22,6 @@ Version control systems (VCS) give software engineering teams complete visibilit
 `git fetch`: Downloads changes from the remote repository but does NOT merge them.
 `git pull`: Downloads changes AND merges them into your current branch.
 
----
-
 ## Git Rebase (Simple Explanation)
 
 Git rebase is used to move your branch to a new base, making your commit history cleaner and more linear.
@@ -36,6 +34,6 @@ git rebase main
 
 Git cherry-pick is used to copy a specific commit from one branch and apply it to another branch.
 
-### comand:
+### command:
 
 git cherry-pick <commit-hash>
