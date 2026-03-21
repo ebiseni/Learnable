@@ -1,7 +1,5 @@
 # Learnable
 
-# git-assignment
-
 # Basic version control
 
 ## What is Version Control?
@@ -33,3 +31,11 @@ Git rebase is used to move your branch to a new base, making your commit history
 ### Command:
 
 git rebase main
+
+## Git Cherry-pick (Simple Explanation)
+
+Git cherry-pick is used to copy a specific commit from one branch and apply it to another branch.
+
+### comand:
+
+git cherry-pick <commit-hash>
